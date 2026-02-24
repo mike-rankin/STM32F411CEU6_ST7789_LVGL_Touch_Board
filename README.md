@@ -10,11 +10,12 @@ Configure the clock
 Configure SPI
 ![Image](https://github.com/user-attachments/assets/ce7f203a-7f1e-4112-b6f8-5b820088e96d)
 Configure SPI DMA
+![Image](https://github.com/user-attachments/assets/37efa46d-6b8d-4065-8602-90645de7cdfe)
 ![Image](https://github.com/user-attachments/assets/d21fb571-446e-499b-818a-910ea35e9d2f)
 Configure capactive touch interrupt pin
 ![Image](https://github.com/user-attachments/assets/8394fe10-b67e-4559-970f-4cf9aa3845e9)
 
-![Image](https://github.com/user-attachments/assets/37efa46d-6b8d-4065-8602-90645de7cdfe)
+
 
 ![Image](https://github.com/user-attachments/assets/1c708a69-2807-4519-b1e9-13883c223834)
 
