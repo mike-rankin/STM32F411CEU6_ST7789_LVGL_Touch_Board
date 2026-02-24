@@ -2,3 +2,6 @@
 STM32F411CEU6 processor using an ST7789 with Touch
 
 ![Image](https://github.com/user-attachments/assets/436e7f5b-e88a-4e17-a4a8-d6ba3dd4fcf8)
+
+![Image](https://github.com/user-attachments/assets/ab12b492-5469-4054-8f75-be3b58225de2)
+
