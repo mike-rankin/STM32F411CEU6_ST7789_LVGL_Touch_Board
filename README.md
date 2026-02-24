@@ -23,7 +23,9 @@
 ![Image](https://github.com/user-attachments/assets/d21fb571-446e-499b-818a-910ea35e9d2f)
 ### Enable the Interrupt Pin
 ![Image](https://github.com/user-attachments/assets/1c708a69-2807-4519-b1e9-13883c223834)
-### Configure Squareline Studio
+### Configure Squareline Studio noting the LVGL Version Selected
 ![Image](https://github.com/user-attachments/assets/ab12b492-5469-4054-8f75-be3b58225de2)
 ### CubeIDE Under stm32f4xx_it.c add lv_tick_inc(1)
+![Image](https://github.com/user-attachments/assets/c0964dfb-d94f-4327-96ee-8e632309ab30)
+### In Squareline Studio, place your items
 ![Image](https://github.com/user-attachments/assets/c0964dfb-d94f-4327-96ee-8e632309ab30)
