@@ -1,0 +1,6 @@
+../Drivers/lvgl/lvgl/src/extra/libs/png/../../../../src/hal/../draw/../misc/lv_color.h:595:26:lv_color_make	1
+../Drivers/lvgl/lvgl/src/extra/libs/png/lv_png.c:47:6:lv_png_init	1
+../Drivers/lvgl/lvgl/src/extra/libs/png/lv_png.c:65:17:decoder_info	11
+../Drivers/lvgl/lvgl/src/extra/libs/png/lv_png.c:146:17:decoder_open	9
+../Drivers/lvgl/lvgl/src/extra/libs/png/lv_png.c:219:13:decoder_close	2
+../Drivers/lvgl/lvgl/src/extra/libs/png/lv_png.c:233:13:convert_color_depth	2

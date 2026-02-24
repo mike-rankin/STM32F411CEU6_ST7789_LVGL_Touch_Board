@@ -1,0 +1,7 @@
+../Drivers/lvgl/lvgl/src/draw/sw/../../misc/lv_color.h:375:24:lv_color_to32	24	static
+../Drivers/lvgl/lvgl/src/draw/sw/../../misc/lv_color.h:600:26:lv_color_hex	24	static
+../Drivers/lvgl/lvgl/src/draw/sw/lv_draw_sw_dither.c:20:28:lv_dither_none	40	static
+../Drivers/lvgl/lvgl/src/draw/sw/lv_draw_sw_dither.c:43:28:lv_dither_ordered_hor	48	static
+../Drivers/lvgl/lvgl/src/draw/sw/lv_draw_sw_dither.c:67:28:lv_dither_ordered_ver	56	static
+../Drivers/lvgl/lvgl/src/draw/sw/lv_draw_sw_dither.c:102:28:lv_dither_err_diff_hor	80	static
+../Drivers/lvgl/lvgl/src/draw/sw/lv_draw_sw_dither.c:156:28:lv_dither_err_diff_ver	72	static

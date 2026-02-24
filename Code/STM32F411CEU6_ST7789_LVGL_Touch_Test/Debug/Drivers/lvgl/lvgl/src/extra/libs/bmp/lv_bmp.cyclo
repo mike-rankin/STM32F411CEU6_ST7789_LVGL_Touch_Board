@@ -1,0 +1,5 @@
+../Drivers/lvgl/lvgl/src/extra/libs/bmp/lv_bmp.c:54:6:lv_bmp_init	1
+../Drivers/lvgl/lvgl/src/extra/libs/bmp/lv_bmp.c:73:17:decoder_info	5
+../Drivers/lvgl/lvgl/src/extra/libs/bmp/lv_bmp.c:124:17:decoder_open	11
+../Drivers/lvgl/lvgl/src/extra/libs/bmp/lv_bmp.c:194:17:decoder_read_line	1
+../Drivers/lvgl/lvgl/src/extra/libs/bmp/lv_bmp.c:249:13:decoder_close	1

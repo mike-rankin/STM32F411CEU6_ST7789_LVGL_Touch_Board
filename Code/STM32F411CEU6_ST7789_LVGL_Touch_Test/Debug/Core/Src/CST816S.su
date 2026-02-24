@@ -1,0 +1,15 @@
+../Core/Src/CST816S.c:20:13:_hardware_reset	16	static
+../Core/Src/CST816S.c:34:6:CST816S_WriteReg	40	static
+../Core/Src/CST816S.c:47:6:CST816S_ReadReg	48	static
+../Core/Src/CST816S.c:60:6:CST816S_ReadRegs	48	static
+../Core/Src/CST816S.c:79:13:_read_touch	24	static
+../Core/Src/CST816S.c:99:6:CST816S_Init	32	static
+../Core/Src/CST816S.c:141:6:CST816S_EXTI_Callback	16	static
+../Core/Src/CST816S.c:155:6:CST816S_AttachInterrupt	16	static
+../Core/Src/CST816S.c:162:6:CST816S_Available	16	static
+../Core/Src/CST816S.c:187:6:CST816S_GetInfo	32	static
+../Core/Src/CST816S.c:205:6:CST816S_DisableAutoSleep	16	static
+../Core/Src/CST816S.c:211:6:CST816S_EnableAutoSleep	16	static
+../Core/Src/CST816S.c:216:6:CST816S_SetAutoSleepTime	16	static
+../Core/Src/CST816S.c:224:6:CST816S_SetIrqControl	16	static
+../Core/Src/CST816S.c:229:6:CST816S_SetMotionMask	16	static

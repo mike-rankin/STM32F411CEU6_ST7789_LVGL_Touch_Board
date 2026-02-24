@@ -1,0 +1,6 @@
+C:/Users/mrankin/OneDrive/STM32_Workspace/STM32F411CEU6_ST7789/STM32F411CEU6_ST7789_LVGL_Touch_Test/Drivers/lvgl/lvgl/src/hal/../draw/../misc/lv_color.h:600:26:lv_color_hex	1
+C:/Users/mrankin/OneDrive/STM32_Workspace/STM32F411CEU6_ST7789/STM32F411CEU6_ST7789_LVGL_Touch_Test/Drivers/lvgl/lvgl/src/widgets/lv_slider.h:84:20:lv_slider_set_value	1
+C:/Users/mrankin/OneDrive/STM32_Workspace/STM32F411CEU6_ST7789/STM32F411CEU6_ST7789_LVGL_Touch_Test/Drivers/lvgl/lvgl/src/widgets/lv_slider.h:95:20:lv_slider_set_left_value	1
+C:/Users/mrankin/OneDrive/STM32_Workspace/STM32F411CEU6_ST7789/STM32F411CEU6_ST7789_LVGL_Touch_Test/Drivers/lvgl/lvgl/src/widgets/lv_slider.h:177:32:lv_slider_get_mode	3
+../Drivers/lvgl/ui/screens/ui_Screen2.c:18:6:ui_Screen2_screen_init	2
+../Drivers/lvgl/ui/screens/ui_Screen2.c:87:6:ui_Screen2_screen_destroy	2

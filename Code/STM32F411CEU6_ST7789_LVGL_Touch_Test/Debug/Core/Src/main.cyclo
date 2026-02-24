@@ -1,0 +1,11 @@
+../Core/Src/main.c:60:13:UART_Print	1
+../Core/Src/main.c:67:6:HAL_GPIO_EXTI_Callback	1
+../Core/Src/main.c:87:13:my_touchpad_read	2
+../Core/Src/main.c:123:5:main	2
+../Core/Src/main.c:182:6:SystemClock_Config	3
+../Core/Src/main.c:216:13:MX_I2C1_Init	2
+../Core/Src/main.c:233:13:MX_SPI1_Init	2
+../Core/Src/main.c:253:13:MX_USART1_UART_Init	2
+../Core/Src/main.c:269:13:MX_DMA_Init	1
+../Core/Src/main.c:276:13:MX_GPIO_Init	1
+../Core/Src/main.c:313:6:Error_Handler	1

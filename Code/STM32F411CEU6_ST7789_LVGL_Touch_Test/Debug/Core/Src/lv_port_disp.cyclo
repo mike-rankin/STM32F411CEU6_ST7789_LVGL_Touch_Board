@@ -1,0 +1,6 @@
+../Core/Src/lv_port_disp.c:43:6:lv_port_disp_init	1
+../Core/Src/lv_port_disp.c:73:13:disp_init	1
+../Core/Src/lv_port_disp.c:80:6:disp_enable_update	1
+../Core/Src/lv_port_disp.c:85:6:disp_disable_update	1
+../Core/Src/lv_port_disp.c:90:13:disp_flush	3
+../Core/Src/lv_port_disp.c:105:6:ST7789V_FlushReady	1

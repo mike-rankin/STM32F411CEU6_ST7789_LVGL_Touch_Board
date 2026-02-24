@@ -1,0 +1,11 @@
+../Drivers/lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c:132:14:alloc_pool	2
+../Drivers/lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c:158:16:create_qt_tbl	6
+../Drivers/lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c:194:16:create_huffman_tbl	14
+../Drivers/lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c:282:12:huffext	11
+../Drivers/lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c:423:12:bitext	9
+../Drivers/lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c:508:16:restart	6
+../Drivers/lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c:579:13:block_idct	3
+../Drivers/lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c:702:16:mcu_load	20
+../Drivers/lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c:788:16:mcu_output	23
+../Drivers/lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c:962:9:jd_prepare	53
+../Drivers/lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c:1118:9:jd_decomp	9
