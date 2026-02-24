@@ -7,10 +7,10 @@ GPIO Pins Used
 ![Image](https://github.com/user-attachments/assets/eb2873c4-37f5-4b08-a057-698877302b69)
 Configure the clock
 ![Image](https://github.com/user-attachments/assets/5dee5208-16ef-4b9d-ae71-22241585016c)
-
+Configure SPI
 ![Image](https://github.com/user-attachments/assets/ce7f203a-7f1e-4112-b6f8-5b820088e96d)
+Configure SPI DMA
 ![Image](https://github.com/user-attachments/assets/d21fb571-446e-499b-818a-910ea35e9d2f)
-
 
 ![Image](https://github.com/user-attachments/assets/8394fe10-b67e-4559-970f-4cf9aa3845e9)
 
