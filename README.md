@@ -1,7 +1,7 @@
 # STM32F411CEU6_ST7789_LVGL_Touch_Board
 STM32F411CEU6 processor using an ST7789 with Touch
 
-** Onboard Components **
+**Onboard Components**
 ![Image](https://github.com/user-attachments/assets/436e7f5b-e88a-4e17-a4a8-d6ba3dd4fcf8)
 GPIO Pins Used
 ![Image](https://github.com/user-attachments/assets/eb2873c4-37f5-4b08-a057-698877302b69)
