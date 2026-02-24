@@ -18,4 +18,5 @@
 ![Image](https://github.com/user-attachments/assets/1c708a69-2807-4519-b1e9-13883c223834)
 ### Configure Squareline Studio
 ![Image](https://github.com/user-attachments/assets/ab12b492-5469-4054-8f75-be3b58225de2)
-
+### CubeIDE Enable lv_tick_inc(1)
+![Image](https://github.com/user-attachments/assets/c0964dfb-d94f-4327-96ee-8e632309ab30)
