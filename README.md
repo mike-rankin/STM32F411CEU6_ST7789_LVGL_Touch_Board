@@ -14,10 +14,8 @@
 ![Image](https://github.com/user-attachments/assets/8394fe10-b67e-4559-970f-4cf9aa3845e9)
 ### Configure Interrupt Pin Pull-Up
 ![Image](https://github.com/user-attachments/assets/d21fb571-446e-499b-818a-910ea35e9d2f)
-
+### Enable the Interrupt Pin
 ![Image](https://github.com/user-attachments/assets/1c708a69-2807-4519-b1e9-13883c223834)
-
-
-
+### Configure Squareline Studio
 ![Image](https://github.com/user-attachments/assets/ab12b492-5469-4054-8f75-be3b58225de2)
 
