@@ -1,5 +1,12 @@
 # STM32F411CEU6_ST7789_LVGL_Touch_Board
 
+### To do items:
+*   **Clock Config: 20Mhz, route HSE, rote PLLCLK for 100Mhz**
+*   **SPI, DMA Settings: Enable SPI1_TX, Priority High**
+*   **Touch C_INT instead of input is GPIO_EXIT13**
+*   **GPIO: Click PB13, Ext Int with Falling edge, Pull-up, Label as C_INT**
+*   **In stm32f4xx_it.c under void SysTick_Handler(void) add  lv_tick_inc(1);**
+
 ### Onboard Components
 ![Image](https://github.com/user-attachments/assets/436e7f5b-e88a-4e17-a4a8-d6ba3dd4fcf8)
 ### GPIO Pins Used
