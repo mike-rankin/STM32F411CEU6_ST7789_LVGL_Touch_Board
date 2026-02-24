@@ -28,4 +28,4 @@
 ### CubeIDE Under stm32f4xx_it.c add lv_tick_inc(1)
 ![Image](https://github.com/user-attachments/assets/c0964dfb-d94f-4327-96ee-8e632309ab30)
 ### In Squareline Studio, place your items
-![Image](https://github.com/user-attachments/assets/c0964dfb-d94f-4327-96ee-8e632309ab30)
+![Image](https://github.com/user-attachments/assets/0a48e627-1fee-4ec2-b475-440bbd554229)
