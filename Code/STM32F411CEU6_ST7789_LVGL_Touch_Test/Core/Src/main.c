@@ -29,12 +29,9 @@
 #include "main.h"
 #include "CST816S.h"
 #include <stdio.h>
-#include <string.h>                 // FIX 1: Added for strlen()
+#include <string.h>
 #include "st7789v.h"
-//#include "lvgl.h"                   // FIX 2: Must come BEFORE lv_port_disp.h
 #include <lv_port_disp.h>
-//#include "ui.h"                     // SquareLine Studio generated UI
-
 
 I2C_HandleTypeDef hi2c1;
 SPI_HandleTypeDef hspi1;
@@ -50,11 +47,7 @@ static void MX_I2C1_Init(void);
 static void MX_SPI1_Init(void);
 static void MX_USART1_UART_Init(void);
 
-
-// -- The LVGL input device handle (LVGL v9 style) --
-//static lv_indev_t *indev_touchpad;
-  static lv_indev_drv_t indev_drv;
-
+static lv_indev_drv_t indev_drv;
 
 // Transmit a formatted string over UART1.
 static void UART_Print(const char *str)
@@ -70,19 +63,6 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 }
 
 
-// -------------------------------------------------------
-// LVGL v9 read callback — first arg is (lv_indev_t *), not (lv_indev_drv_t *)
-//
-// CST816S_Handle_t layout (from CST816S.h):
-//   touch.touch.x          — X coordinate     (CST816S_Touch_t nested struct)
-//   touch.touch.y          — Y coordinate
-//   touch.touch.gesture    — CST816S_Gesture_t enum  (GESTURE_NONE = 0x00)
-//   touch.touch.finger_num — 0 = no finger, 1 = finger down
-//   touch.data_ready       — set true by CST816S_EXTI_Callback() on INT pin
-//
-// CST816S_Available() reads I2C, populates touch.touch, clears data_ready,
-// and returns true when a finger is detected — use it as the "is pressed" check.
-// -------------------------------------------------------
 //static void my_touchpad_read(lv_indev_t *indev, lv_indev_data_t *data)
 static void my_touchpad_read(lv_indev_drv_t *indev_drv, lv_indev_data_t *data)
 {
@@ -90,21 +70,9 @@ static void my_touchpad_read(lv_indev_drv_t *indev_drv, lv_indev_data_t *data)
     {
         // Finger is on the screen — report position and pressed state
         data->state   = LV_INDEV_STATE_PRESSED;
-        //Not right
-        //data->point.x = (lv_coord_t)touch.touch.x;
-        //data->point.y = (lv_coord_t)touch.touch.y;
 
-        // Option A — swap + mirror X (current, for 90° rotation)
         data->point.x = (lv_coord_t)((280 /*DISPLAY_WIDTH*/ - 1) - touch.touch.y);
         data->point.y = (lv_coord_t)touch.touch.x;
-
-        // Option B — plain swap, no mirror (try if Option A overshoots)
-        //data->point.x = (lv_coord_t)touch.touch.y;
-        //data->point.y = (lv_coord_t)touch.touch.x;
-
-        // Option C — mirror Y instead (for different rotation)
-        //data->point.x = (lv_coord_t)touch.touch.y;
-        //data->point.y = (lv_coord_t)((240/*DISPLAY_HEIGHT*/ - 1) - touch.touch.x);
 
         // Debug: print coordinates over UART (remove once working)
         char buf[56];
@@ -152,26 +120,16 @@ int main(void)
   lv_init();
   lv_port_disp_init();
 
-  // FIX 5: LVGL v9 input driver registration.
-  //         lv_indev_drv_t / lv_indev_drv_init() / lv_indev_drv_register()
-  //         are all gone in v9. Use lv_indev_create() instead.
-     //indev_touchpad = lv_indev_create();
-     //lv_indev_set_type(indev_touchpad, LV_INDEV_TYPE_POINTER);
-     //lv_indev_set_read_cb(indev_touchpad, my_touchpad_read);
+  lv_indev_drv_init(&indev_drv);
+  indev_drv.type    = LV_INDEV_TYPE_POINTER;
+  indev_drv.read_cb = my_touchpad_read;
+  lv_indev_drv_register(&indev_drv);
 
-       lv_indev_drv_init(&indev_drv);
-       indev_drv.type    = LV_INDEV_TYPE_POINTER;
-       indev_drv.read_cb = my_touchpad_read;
-       lv_indev_drv_register(&indev_drv);
-
-  // Initialise SquareLine Studio generated UI
-  // (make sure ui.h is included in your ui folder and added to include paths)
   ui_init();
-
 
   while (1)
   {
-      lv_timer_handler();   // drives LVGL rendering + input polling
+      lv_timer_handler();
       HAL_Delay(5);
   }
 }
